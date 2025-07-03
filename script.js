@@ -10,7 +10,7 @@
 
         // Validar entradas
         if (isNaN(t1) || isNaN(d1) || isNaN(d2)) {
-            resultDiv.innerHTML = 'Error: Por favor, ingrese todos los valores.';
+            resultDiv.innerHTML = 'Error: por favor, ingrese todos los valores.';
             resultDiv.style.backgroundColor = '#ffebee';
             resultDiv.style.borderColor = '#ffcdd2';
             resultDiv.style.display = 'block';
@@ -18,7 +18,7 @@
         }
 
         if (d1 <= 0) {
-            resultDiv.innerHTML = 'Error: La "Distancia al Objeto Real" debe ser mayor que cero.';
+            resultDiv.innerHTML = 'Error: la "Distancia al objeto real" debe ser mayor que cero.';
             resultDiv.style.backgroundColor = '#ffebee';
             resultDiv.style.borderColor = '#ffcdd2';
             resultDiv.style.display = 'block';
@@ -30,7 +30,7 @@
 
         // Mostrar resultado
         const t2_cm = t2 * 100;
-        resultDiv.innerHTML = `El dibujo debe medir:<br><span style="font-size: 1.4em;">${t2.toFixed(4)} metros</span><br>(${t2_cm.toFixed(2)} cm)`;
+        resultDiv.innerHTML = `La imagen debe medir:<br><span style="font-size: 1.4em;">${t2.toFixed(2)} metros</span><br>(${t2_cm.toFixed(0)} cm)`;
         
         // Estilo y visualización del resultado
         resultDiv.style.backgroundColor = '#e9f5ff';

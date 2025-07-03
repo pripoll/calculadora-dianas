@@ -3,55 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora de Dianas a Escala</title>
+    <title>Calculadora de dianas a escala</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <div class="main-container">
         <div class="calculator-container">
-            <h1>Calculadora de Dianas a Escala</h1>
+            <h1>Calculadora de dianas a escala</h1>
 
             <details class="instructions">
-                <summary>Instrucciones de Uso</summary>
+                <summary>Instrucciones de uso</summary>
                 <div class="instructions-content">
-                    <p>Esta calculadora te permite determinar el tamaño exacto que debe tener un dibujo en un blanco de papel para simular el tamaño aparente de un objeto lejano.</p>
+                    <p>Esta calculadora permite determinar el tamaño exacto que debe tener una imagen en un blanco de papel para simular el tamaño aparente de un objeto lejano.</p>
                     
-                    <h4>Paso 1: Define el Objeto Real</h4>
+                    <h4>Paso 1: Define el objeto real</h4>
                     <ul>
-                        <li><b>Dimensión del Objeto Real (m):</b> Ingresa la medida principal (alto, ancho o diámetro) en metros del objeto que quieres simular.</li>
-                        <li><b>Distancia al Objeto Real (m):</b> Ingresa la distancia en metros a la que se encontraría ese objeto en una situación real.</li>
+                        <li><b>Dimensión del objeto real (m):</b> Ingresa la medida principal (alto, ancho o diámetro) en metros del objeto que quieres simular.</li>
+                        <li><b>Distancia al objeto real (m):</b> Ingresa la distancia en metros a la que se encontraría ese objeto en una situación real.</li>
                     </ul>
 
-                    <h4>Paso 2: Define tu Práctica</h4>
+                    <h4>Paso 2: Define tu práctica</h4>
                     <ul>
-                        <li><b>Distancia al Blanco (m):</b> Ingresa la distancia a la que vas a colocar tu blanco de papel para entrenar.</li>
+                        <li><b>Distancia al blanco (m):</b> Ingresa la distancia a la que vas a colocar tu blanco de papel para entrenar.</li>
                     </ul>
 
-                    <h4>Paso 3: Obtén el Resultado</h4>
-                    <p>La calculadora te dará el <b>Tamaño del Dibujo en el Blanco (m)</b>. Esta es la medida exacta (alto, ancho o diámetro) que debe tener tu dibujo en el papel para que, a tu distancia de práctica, se vea idéntico al objeto real en la distancia real.</p>
+                    <h4>Paso 3: Obtén el resultado</h4>
+                    <p>La calculadora te dará el <b>tamaño de la imagen en el blanco (m)</b>. Esta es la medida exacta (alto, ancho o diámetro) que debe tener tu imagen en el papel para que, a tu distancia de práctica, se vea idéntica al objeto real en la distancia real.</p>
 
                     <p><b>Ejemplo práctico:</b><br>
-                    Quieres simular una placa metálica de <b>0.4 metros</b> de ancho que en una competencia estaría a <b>200 metros</b>. Si vas a practicar en un polígono a <b>25 metros</b>, la calculadora te indicará que el dibujo en tu papel debe medir <b>0.05 metros</b> (o 5 cm).</p>
+                    Quieres simular una placa metálica de <b>0.40 metros</b> de ancho que en una competencia estaría a <b>200 metros</b>. Si vas a practicar en un polígono a <b>25 metros</b>, la calculadora te indicará que la imagen en tu papel debe medir <b>0.05 metros</b> (o 5 cm).</p>
                 </div>
             </details>
 
             <div class="form-group">
-                <label for="t1">Dimensión del Objeto Real (m)</label>
+                <label for="t1">Dimensión del objeto real (m)</label>
                 <input type="number" id="t1" step="0.01" placeholder="Ej: 1.75">
             </div>
 
             <div class="form-group">
-                <label for="d1">Distancia al Objeto Real (m)</label>
+                <label for="d1">Distancia al objeto real (m)</label>
                 <input type="number" id="d1" step="0.01" placeholder="Ej: 300.00">
             </div>
 
             <div class="form-group">
-                <label for="d2">Distancia al Blanco (m)</label>
+                <label for="d2">Distancia al blanco (m)</label>
                 <input type="number" id="d2" step="0.01" placeholder="Ej: 25.00">
             </div>
 
-            <button id="calculateBtn">Calcular Tamaño</button>
+            <button id="calculateBtn">Calcular tamaño</button>
 
             <div id="result" class="result-container"></div>
         </div>
