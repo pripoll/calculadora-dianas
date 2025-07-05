@@ -9,4 +9,4 @@ La herramienta utiliza la siguiente fórmula basada en la semejanza de triángul
 
 ## Autor
 
-* Pablo Ripoll - CABA, Argentina - 2025
+* Pablo I. Ripoll - CABA, Argentina - 2025
