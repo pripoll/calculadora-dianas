@@ -7,7 +7,6 @@ Esta es una simple aplicación web que calcula el tamaño que debe tener una ima
 La herramienta utiliza la siguiente fórmula basada en la semejanza de triángulos:
 `Tamaño de la imagen = Tamaño del objeto real * (Distancia al blanco / Distancia al objeto real)`
 
-## Autores
+## Autor
 
-* Ing. Laura Sanchez - CABA, Argentina
-* Pablo Ripoll - CABA, Argentina
+* Pablo Ripoll - CABA, Argentina - 2025
