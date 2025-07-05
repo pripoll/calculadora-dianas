@@ -1,4 +1,4 @@
-# Calculadora de dianas a escala
+# Calculadora de blancos a escala
 
 Esta es una simple aplicación web que calcula el tamaño que debe tener una imagen en un blanco de papel para simular el tamaño de un objeto real visto a una distancia mayor.
 
