@@ -126,6 +126,23 @@ footer p {
     margin: 4px 0;
 }
 
+/* Estilos agregados para el nuevo enlace en el pie de página */
+.footer-link {
+    margin-top: 12px; /* Espacio extra arriba del enlace */
+    margin-bottom: 12px; /* Espacio extra debajo del enlace */
+}
+
+.footer-link a {
+    color: #0056b3; /* Un azul más sutil */
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.footer-link a:hover {
+    text-decoration: underline;
+}
+
+
 /* Estilos para el logo en el pie de página */
 .footer-logo {
     display: block;
