@@ -1,12 +1,36 @@
-# Calculadora de blancos a escala
+Calculadora de Blancos a Escala
 
-Esta es una simple aplicación web que calcula el tamaño que debe tener una imagen en un blanco de papel para simular el tamaño de un objeto real visto a una distancia mayor.
+Esta herramienta es una calculadora web diseñada para determinar el tamaño exacto que debe tener una imagen en un blanco de papel para simular el tamaño aparente de un objeto lejano. Es una utilidad esencial para tiradores que desean practicar en un campo de tiro a distancias más cortas, replicando las condiciones de un objetivo distante.
+Características
 
-## Cómo funciona
+    Simulación Precisa: Calcula el tamaño de un blanco impreso para que se vea idéntico a un objeto real a una distancia mayor.
 
-La herramienta utiliza la siguiente fórmula basada en la semejanza de triángulos:
-`Tamaño de la imagen = Tamaño del objeto real * (Distancia al blanco / Distancia al objeto real)`
+    Fácil de Usar: Interfaz intuitiva que te guía para obtener el tamaño del blanco en pocos pasos.
 
-## Autor
+    Ajustable: Permite ingresar dimensiones y distancias en metros.
 
-* Pablo I. Ripoll - CABA, Argentina - Julio de 2025
+    Responsiva: Funciona perfectamente en dispositivos móviles y de escritorio.
+
+Cómo Usar
+
+    Introduce la dimensión del objeto real (en metros).
+
+    Ingresa la distancia a la que se encuentra ese objeto en la vida real (en metros).
+
+    Define la distancia a la que colocarás tu blanco de papel (en metros).
+
+    Haz clic en el botón "Calcular" para obtener el tamaño de la imagen que debes imprimir en tu blanco.
+
+Proyectos Relacionados
+
+    Calculadora de Energía Cinética: Visitar
+
+    Calculadora MOA y Miliradianes: Visitar
+
+Autor
+
+Una herramienta diseñada por Pablo I. Ripoll
+
+    Email: pripoll@hotmail.com
+
+    Ubicación: Buenos Aires, Argentina - 2025
